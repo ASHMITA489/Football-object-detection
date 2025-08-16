@@ -5,21 +5,21 @@ This provides a complete pipeline for analyzing the football match videos. It de
 
 ## Project structure
 
-camera_movement_estimator/      # Camera movement estimation logic
-input_vid/                      # Place your input videos here
-main.py                         # Script for custom video
-models/                         # YOLO model weights
-output_vid/                     # Output videos and images
-player_ball_assigner/           # Ball possession assignment logic
-requirements.txt                # Python dependencies
-run.py                          # Main script for giving input video
-speed_and_distance_estimator/   # Speed and distance estimation logic
-stubs/                          # Cached detection/camera movement results
-team_assigner/                  # Team color clustering and assignment
-trackers/                       # Object detection and tracking
-training/                       # Notebooks and data for model training
-utils/                          # Utility functions (video, bbox, etc.)
-view_transformer/               # Field calibration and perspective transform
+camera_movement_estimator/                                         # Camera movement estimation logic
+input_vid/                                                         # Place your input videos here
+main.py                                                            # Script for custom video
+models/                                                            # YOLO model weights
+output_vid/                                                        # Output videos and images
+player_ball_assigner/                                              # Ball possession assignment logic
+requirements.txt                                                   # Python dependencies
+run.py                                                             # Main script for giving input video
+speed_and_distance_estimator/                                      # Speed and distance estimation logic
+stubs/                                                             # Cached detection/camera movement results
+team_assigner/                                                     # Team color clustering and assignment
+trackers/                                                          # Object detection and tracking
+training/                                                          # Notebooks and data for model training
+utils/                                                             # Utility functions (video, bbox, etc.)
+view_transformer/                                                  # Field calibration and perspective transform
 
 
 ## Installation
